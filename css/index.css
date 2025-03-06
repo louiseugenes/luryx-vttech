@@ -41,27 +41,30 @@ nav {
 }
 
 .hero {
-    background: linear-gradient(135deg, #f5be01, #101920);
+    background: linear-gradient(135deg, rgba(245, 190, 1, 0.8), rgba(16, 25, 32, 0.8)), url('../assets/474252451_17891182257173759_3668114759441035434_n.jpg');
+    background-size: cover;
+    background-position: center;
     min-height: 47vh;
     max-height: 47vh;
     text-align: center;
     padding: 150px 20px;
     color: white;
+    z-index: -1;
 }
 
-.hero h2 {
+.heru h2 {
     font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 20px;
 }
 
-.hero h1 {
+.heru h1 {
     font-size: 48px;
     margin-bottom: 20px;
 }
 
-.hero p {
+.heru p {
     font-size: 18px;
     margin-bottom: 30px;
 }
