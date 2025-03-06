@@ -33,11 +33,17 @@ nav {
 }
 
 .get-started-btn {
-    color: white;
-    padding: 12px 24px;
+    display: inline-block;
+    padding: 5px 10px;
     border-radius: 25px;
     text-decoration: none;
     font-weight: bold;
+    background-color: white;
+}
+
+.get-started-btn img {
+    width: 30px;
+    height: auto;
 }
 
 .hero {
